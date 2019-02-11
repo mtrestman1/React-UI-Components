@@ -3,7 +3,12 @@ import './Card.css';
 
 
 function CardContent() {
-    return <p>React makes it painless to create interactive UIs. Design simple views for each state in your application.</p>;
+    return (
+   <div class="card-content"><h5>Get Started With React</h5>
+   <p>React makes it painless to create interactive UIs. Design simple views for <br/> each state in your application.</p>
+   <p>reactjs.org</p>
+   </div>
+    );
 }
 
 export default CardContent;
