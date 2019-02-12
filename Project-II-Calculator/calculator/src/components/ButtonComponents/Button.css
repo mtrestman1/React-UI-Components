@@ -1,0 +1,10 @@
+.number-button {
+    height: 50px;
+    width: 80px;
+    /* border: 1px solid black;
+    border-top: none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
